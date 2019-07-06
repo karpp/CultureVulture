@@ -27,7 +27,7 @@ namespace Routes
         private List<Painting> all_paintings = ContentLoader.load();
         private Route currentRoute = ContentLoader.getRoute1();
 
-        public const string key = "3fa1f65516424aefa6af2a2abaf63308";
+        public const string key = "<key>";
         public readonly HttpClient client = new HttpClient
         {
             DefaultRequestHeaders = { { "Ocp-Apim-Subscription-Key", key } }
